@@ -1,0 +1,25 @@
+name: firebase_messaging_example
+description: Demonstrates how to use the firebase_messaging plugin.
+
+dependencies:
+  firebase_analytics: ^6.0.2
+  flutter:
+    sdk: flutter
+  firebase_messaging:
+    path: ../
+  firebase_core: ^0.5.2
+
+dependency_overrides:
+  firebase_core: ^0.5.2
+
+dev_dependencies:
+  pedantic: ^1.8.0
+  flutter_test:
+    sdk: flutter
+  e2e: ^0.6.1
+  flutter_driver:
+    sdk: flutter
+  test: any
+
+flutter:
+  uses-material-design: true
